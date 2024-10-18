@@ -92,7 +92,16 @@ darshanig@Darshani-laptop:~$
 
 ```
 ## Files Locking:
-
-
+```
+darshanig@Darshani-laptop:~$ vi lock.c
+darshanig@Darshani-laptop:~$ gcc -o lock.o lock.c
+darshanig@Darshani-laptop:~$ vi tricky.txt
+darshanig@Darshani-laptop:~$ ./lock.o tricky.txt
+opening tricky.txt
+Acquiring shared lock using flock
+Acquiring exclusive lock using flock
+unlocking
+darshanig@Darshani-laptop:~$ lslocks
+```
 # RESULT:
 The programs are executed successfully.
