@@ -102,6 +102,8 @@ Acquiring shared lock using flock
 Acquiring exclusive lock using flock
 unlocking
 darshanig@Darshani-laptop:~$ lslocks
+COMMAND         PID  TYPE SIZE MODE  M START END PATH
+(unknown)        54 FLOCK      WRITE 0     0   0 /run...
 ```
 # RESULT:
 The programs are executed successfully.
